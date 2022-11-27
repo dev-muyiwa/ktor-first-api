@@ -1,0 +1,10 @@
+GET http://0.0.0.0:8080/order
+Accept: application/json
+
+###
+GET http://0.0.0.0:8080/order/2020-04-06-01
+Accept: application/json
+
+###
+GET http://0.0.0.0:8080/order/2020-04-06-01/total
+Accept: application/json

@@ -1,0 +1,50 @@
+POST http://0.0.0.0:8080/customer
+Content-Type: application/json
+
+{
+  "id": "100",
+  "firstName": "Aizen",
+  "lastName": "Sousuke",
+  "email": "aizen@espada.com"
+}
+
+
+###
+POST http://0.0.0.0:8080/customer
+Content-Type: application/json
+
+{
+  "id": "200",
+  "firstName": "Madara",
+  "lastName": "Uchiha",
+  "email": "madara@uchiha.com"
+}
+
+###
+POST http://0.0.0.0:8080/customer
+Content-Type: application/json
+
+{
+  "id": "300",
+  "firstName": "Luffy",
+  "lastName": "Monkey",
+  "email": "d.luffy@strawhats.com"
+}
+
+###
+GET http://0.0.0.0:8080/customer
+Accept: application/json
+
+###
+GET http://0.0.0.0:8080/customer/200
+Accept: application/json
+
+###
+GET http://0.0.0.0:8080/customer/500
+Accept: application/json
+
+###
+DELETE http://0.0.0.0:8080/customer/100
+
+###
+DELETE http://0.0.0.0:8080/customer/500
